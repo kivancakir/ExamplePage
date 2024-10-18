@@ -1,0 +1,58 @@
+.calendar-container {
+    /* position: absolute;
+    height: 64px;
+    left: 276px; */
+    background-color: #F8F9FA;
+    /* top: 96px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    margin: 5px 0 5px 0;
+    width: 100%;
+}
+
+.button-style {
+    height: 36px;
+    width: 66px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #00BDD6FF;
+    border-style: solid;
+    color: #00BDD6FF;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.first-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 860px;
+    margin-left: 10px;
+}
+
+.second-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 340px;
+    margin-left: 15px;
+}
+
+.calendar-wrapper {
+    margin-left: 14.5%;
+    max-width: 72.5%;
+    width:100%;
+    position: absolute;
+    max-height: calc(100vh - 76px);
+    overflow-y: scroll;
+    /*  */
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+}
+
+.calendar-wrapper::-webkit-scrollbar {
+    display: none;
+  }

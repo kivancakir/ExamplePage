@@ -1,0 +1,8 @@
+.shiftTemplate-container {
+    background-color: #F8F9FAFF;
+    width: 12.5%;
+    height: calc(100vh - 76px);
+    position: absolute;
+    /* left: 1530px; */
+    right: 0px;
+}

@@ -1,0 +1,17 @@
+.navbar-container {
+    width: 100%;
+    height: 76px;
+    background-color: #00BDD6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-part {
+    width: 168px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 21px;
+}

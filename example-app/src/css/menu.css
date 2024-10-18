@@ -1,0 +1,39 @@
+.menu-container {
+    width: 14%;
+    height: calc(100vh - 76px);
+    background-color: #FAFAFB;
+    position: absolute;
+}
+
+.location-part {
+    width: 224px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.menu-bar {
+    margin-left: 16px;
+    width: 224px;
+    height: 456px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 28px;
+}
+
+.menu-item {
+    width: 224px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #565E6CFF;
+    margin-top: 8px;
+}
